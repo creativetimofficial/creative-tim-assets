@@ -38999,6 +38999,10 @@ License - nucleoapp.com/license/
 
 /* mega menu start */
 
+.right-0 {
+    right: 0 !important;
+}
+
 /* line 1, app/assets/stylesheets/bs3/_mega-menu.scss */
 body {
   font-family: 'Inter', sans-serif !important;
