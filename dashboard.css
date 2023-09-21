@@ -38996,602 +38996,599 @@ License - nucleoapp.com/license/
   display: none !important;
 }
 
-/* line 1, app/assets/stylesheets/bs3/_mega-menu.scss */
+
+/* mega menu start */
+
 body {
-  font-family: 'Inter', sans-serif !important;
+	font-family: 'Inter', sans-serif !important;
 }
 
 /* Mega Menu Styles */
-/* line 7, app/assets/stylesheets/bs3/_mega-menu.scss */
+
 .nav-items-center {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	position: relative;
 }
 
-/* line 13, app/assets/stylesheets/bs3/_mega-menu.scss */
-.ct-menu a {
-  text-decoration: none;
+.dashboard .nav-link-hover, 
+.campaign .ct-menu > ul > li > a {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
-/* line 14, app/assets/stylesheets/bs3/_mega-menu.scss */
-.ct-menu h2, .ct-menu .h2 {
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  margin-top: 20px;
+.badge-nav {
+	background-color: #ea4e3d;
+	font-size: 9px;
+	margin-top: -3px;
+	margin-right: 5px;
 }
 
-/* line 20, app/assets/stylesheets/bs3/_mega-menu.scss */
-.ct-menu h3, .ct-menu .h3 {
-  font-size: 15px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  margin-top: 10px;
+.ct-menu a {text-decoration: none;}
+.ct-menu h2 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
+.ct-menu h3 {
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	margin-top: 10px;
 
-/* line 26, app/assets/stylesheets/bs3/_mega-menu.scss */
-.ct-menu h3.mb-20, .ct-menu .mb-20.h3 {
-  margin-bottom: 20px;
+	&.mb-20 {
+		margin-bottom: 20px;
+	}
 }
-
-/* line 30, app/assets/stylesheets/bs3/_mega-menu.scss */
 .ct-menu .mega-menu-container {
-  margin: auto;
+	margin: auto;
+	
+	.cf:not(.no-flex) {
+		display: flex;
+  	justify-content: space-between;
+	}
 }
-
-/* line 33, app/assets/stylesheets/bs3/_mega-menu.scss */
-.ct-menu .mega-menu-container .cf:not(.no-flex) {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* line 38, app/assets/stylesheets/bs3/_mega-menu.scss */
 .ct-menu .ul-reset {
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
 }
 
-/* line 46, app/assets/stylesheets/bs3/_mega-menu.scss */
-.ct-menu.sticky {
-  position: fixed;
+.ct-menu {
+	&.sticky {
+		position: fixed;
+	}
+
+	&.navbar-top {
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
 }
 
-/* line 50, app/assets/stylesheets/bs3/_mega-menu.scss */
-.ct-menu.navbar-top {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-/* line 57, app/assets/stylesheets/bs3/_mega-menu.scss */
 .learning-line-stroke {
-  color: #64748B;
-  font-size: 15px;
-  font-weight: 700;
-  text-decoration: line-through;
+	color: #64748B;
+	font-size: 15px;
+	font-weight: 700;
+	text-decoration: line-through;	
 }
 
-/* line 64, app/assets/stylesheets/bs3/_mega-menu.scss */
 .learning-price {
-  color: #130824;
-  font-size: 18px;
-  font-weight: 700;
-  margin-right: 5px;
+	color: #130824;
+	font-size: 18px;
+	font-weight: 700;
+	margin-right: 5px;
 }
 
-/* line 71, app/assets/stylesheets/bs3/_mega-menu.scss */
 .learning-title {
-  color: #130824;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 23px;
+	color: #130824;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23px;
 }
 
-/* line 78, app/assets/stylesheets/bs3/_mega-menu.scss */
 .learning-p {
-  color: #64748B;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 21px;
+	color: #64748B;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
 }
 
-/* line 85, app/assets/stylesheets/bs3/_mega-menu.scss */
 .learning {
-  border-radius: 8px;
-  padding: 15px 30px;
+	border-radius: 8px;
+	padding: 15px 30px;
 }
 
-/* line 90, app/assets/stylesheets/bs3/_mega-menu.scss */
 .learning-buy-link {
-  color: #7920BC;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 16px;
-  text-decoration: underline;
+	color: #7920BC;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 16px;
+	text-decoration: underline;
 }
 
-/* line 98, app/assets/stylesheets/bs3/_mega-menu.scss */
 .shadow-navbar {
-  box-shadow: 0 0px 29px 0 rgba(148, 148, 148, 0.1) !important;
+	box-shadow: 0 0px 29px 0 rgba(148, 148, 148, 0.1) !important;
 }
 
-/* line 102, app/assets/stylesheets/bs3/_mega-menu.scss */
 .services-buy-link {
-  color: #130824;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 16px;
+	color: #130824;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 16px;
 }
 
-/* line 109, app/assets/stylesheets/bs3/_mega-menu.scss */
 .nav-link-icon {
-  font-size: 16px !important;
-  margin-left: 5px;
+	font-size: 16px !important;
+	margin-left: 5px;
 }
+
 
 /* #Navigation Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 117, app/assets/stylesheets/bs3/_mega-menu.scss */
-nav.ct-menu {
-  background: #ffffff;
-  font-size: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
+nav.ct-menu  {
+	background: #ffffff;
+	font-size: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+nav.ct-menu  > ul > li {
+	display: inline-block;
+	font-size: 14px;
+	padding: 0 15px;
+	position: relative;
+}
+nav.ct-menu  > ul > li:first-child {padding-left: 0;}
+nav.ct-menu  > ul > li:last-child {padding-right: 0;}
+nav.ct-menu  > ul > li > a {
+	color: #070707;
+	display: block;
+	position: relative;
+	cursor: pointer;
+	padding: 20px 0;
+	// font-weight: 500;
+	transition: color 0.2s ease;
 }
 
-/* line 125, app/assets/stylesheets/bs3/_mega-menu.scss */
-nav.ct-menu > ul > li {
-  display: inline-block;
-  font-size: 14px;
-  padding: 0 15px;
-  position: relative;
-}
-
-/* line 131, app/assets/stylesheets/bs3/_mega-menu.scss */
-nav.ct-menu > ul > li:first-child {
-  padding-left: 0;
-}
-
-/* line 132, app/assets/stylesheets/bs3/_mega-menu.scss */
-nav.ct-menu > ul > li:last-child {
-  padding-right: 0;
-}
-
-/* line 133, app/assets/stylesheets/bs3/_mega-menu.scss */
-nav.ct-menu > ul > li > a {
-  color: #070707;
-  display: block;
-  position: relative;
-  cursor: pointer;
-  padding: 20px 0;
-  transition: color 0.2s ease;
-}
-
-/* line 143, app/assets/stylesheets/bs3/_mega-menu.scss */
 .container-dim {
-  margin-top: 100px;
-  margin-bottom: 87px;
+	margin-top: 100px;
+	margin-bottom: 87px;
 }
 
-/* line 148, app/assets/stylesheets/bs3/_mega-menu.scss */
 .link-flex {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
+
 
 /* #Mega Menu Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 156, app/assets/stylesheets/bs3/_mega-menu.scss */
+.small-menu {
+	.img-promo,
+	.promo-small {
+		border-radius: 8px;
+	}
+
+	.promo-small {
+		background-color: #F8FAFD;
+
+		.promo-small-title {
+			font-size: 15px;
+			margin-bottom: 5px;
+			
+		}
+
+		.promo-small-link {
+			font-size: 12px;
+   	 	color: #7920BC;
+    	text-decoration: underline;
+
+			i {
+				margin-left: 5px;
+			}
+		}
+		
+		.promo-small-link,
+		.promo-small-title {
+			font-weight: 700;
+		}
+	}
+
+	.section-nf-tim {
+		background-color: #f8fafd!important;
+		padding: 10px 45px;
+    border-radius: 8px;
+		display: inline-block;
+	}
+}
+
 .mega-menu {
-  background: #ffffff;
-  opacity: 0;
-  visibility: hidden;
-  border-radius: 12px;
-  z-index: -1;
-  left: 0;
-  right: 0;
-  position: absolute;
-  z-index: 1000;
-  padding: 32px;
-  transition: opacity 0.2s ease, visibility 0.2s ease;
-  box-shadow: 0 25px 29px 0 rgba(148, 148, 148, 0.1) !important;
-  border: 1px solid #f4f4f4;
-}
+	background: #ffffff;
+	opacity: 0;
+	visibility: hidden;
+	border-radius: 12px;
+	z-index: -1;
+	left: 0;
+	right: 0;
+	position: absolute;
+	z-index: 1000;
+	padding: 32px;
+	transition: opacity 0.2s ease, visibility 0.2s ease;
+	box-shadow: 0 25px 29px 0 rgba(148, 148, 148, 0.1) !important;
+	border: 1px solid #f4f4f4;
 
-/* line 172, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .img-promo,
-.mega-menu .promo-small {
-  border-radius: 8px;
-}
 
-/* line 177, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .promo-small {
-  background-color: #F8FAFD;
-}
+	.img-promo,
+	.promo-small {
+		border-radius: 8px;
+	}
 
-/* line 180, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .promo-small .promo-small-title {
-  font-size: 15px;
-  margin-bottom: 5px;
-}
+	.promo-small {
+		background-color: #F8FAFD;
 
-/* line 186, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .promo-small .promo-small-link {
-  font-size: 12px;
-  color: #7920BC;
-  text-decoration: underline;
-}
+		.promo-small-title {
+			font-size: 15px;
+			margin-bottom: 5px;
+			
+		}
 
-/* line 191, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .promo-small .promo-small-link i {
-  margin-left: 5px;
-}
+		.promo-small-link {
+			font-size: 12px;
+   	 	color: #7920BC;
+    	text-decoration: underline;
 
-/* line 196, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .promo-small .promo-small-link,
-.mega-menu .promo-small .promo-small-title {
-  font-weight: 700;
-}
+			i {
+				margin-left: 5px;
+			}
+		}
+		
+		.promo-small-link,
+		.promo-small-title {
+			font-weight: 700;
+		}
+	}
 
-/* line 202, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .text-primary {
-  color: #774dd3 !important;
-}
+	.text-primary {
+		color: #774dd3 !important;
+	}
 
-/* line 206, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .services-p {
-  color: #64748B;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 22px;
+	.services-p {
+		color: #64748B;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 22px;
+	}
 }
-
-/* line 213, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .section-nf-tim {
-  background-color: #f8fafd !important;
-  padding: 10px 45px;
-  border-radius: 8px;
-  padding-left: 20px;
-}
-
-/* line 220, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .title,
+.mega-menu .title, 
 .small-menu .title {
-  color: #0F172A;
-  font-size: 14px !important;
-  font-weight: 700;
+	color: #0F172A;
+	font-size: 14px !important;
+	font-weight: 700;
 }
 
-/* line 228, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu ul,
+
+.mega-menu ul, 
 .small-menu ul {
-  float: left;
-  margin-bottom: 20px;
-  margin-right: 40px;
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 40px;
+	// width: 205px;
 }
-
-/* line 235, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu ul:last-child,
+.mega-menu ul:last-child, 
 .small-menu ul:last-child {
-  margin-right: 0;
+	margin-right: 0;
 }
 
-/* line 240, app/assets/stylesheets/bs3/_mega-menu.scss */
 .mega-menu .link-list,
 .small-menu .link-list {
-  color: #64748B;
-  display: block;
-  padding: 4px 0;
-  font-weight: 500;
+	color: #64748B;
+	display: block;
+	padding: 4px 0;
+	font-weight: 500;
+
+	&:hover,
+	&:focus {
+		color: inherit !important;
+	}
+
+	&.link-flex {
+		display: flex;
+		align-items: center;
+	}
+
+	img {
+		margin-right: 20px;
+    border-radius: 4px;
+	}
 }
 
-/* line 247, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .link-list:hover, .mega-menu .link-list:focus,
-.small-menu .link-list:hover,
-.small-menu .link-list:focus {
-  color: inherit !important;
-}
-
-/* line 252, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .link-list.link-flex,
-.small-menu .link-list.link-flex {
-  display: flex;
-  align-items: center;
-}
-
-/* line 257, app/assets/stylesheets/bs3/_mega-menu.scss */
-.mega-menu .link-list img,
-.small-menu .link-list img {
-  margin-right: 20px;
-  border-radius: 4px;
-}
-
-/* line 263, app/assets/stylesheets/bs3/_mega-menu.scss */
 .ct-menu .btn-unlimited {
-  background-color: #774dd3 !important;
-  border-color: #774dd3;
-  color: #ffffff !important;
-  opacity: 1;
-  border-radius: 100px;
-  font-weight: 500;
+	background-color: #774dd3 !important;
+	border-color: #774dd3;
+	color: #ffffff !important;
+	opacity: 1;
+	border-radius: 100px;
+	font-weight: 500;
 }
 
-/* line 272, app/assets/stylesheets/bs3/_mega-menu.scss */
 .ct-menu .small-menu {
-  z-index: 1000;
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  background-color: white;
-  padding: 20px;
-  transition: opacity .15s ease-in-out, visibility .15s ease-in-out;
-  border-radius: 12px;
-  border: 1px solid #f4f4f4;
-  box-shadow: 0 25px 29px 0 rgba(148, 148, 148, 0.1) !important;
+	z-index: 1000;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	background-color: white;
+	padding: 20px 32px;
+	transition: opacity .15s ease-in-out, visibility .15s ease-in-out;
+	border-radius: 12px;
+	border: 1px solid #f4f4f4;
+	box-shadow: 0 25px 29px 0 rgba(148, 148, 148, 0.1) !important;
 }
 
-/* line 285, app/assets/stylesheets/bs3/_mega-menu.scss */
+.ct-menu .small-menu.small-menu-inner {
+	padding: 32px;
+	
+	.right-0 {
+		right: 0;
+	}
+}
+
 .dashboard .ct-menu .ct-logo-li {
-  display: none;
+	display: none;
 }
 
-/* line 289, app/assets/stylesheets/bs3/_mega-menu.scss */
 .dashboard .mega-menu-container {
-  width: 100%;
+	width: 100%;
 }
 
-/* line 293, app/assets/stylesheets/bs3/_mega-menu.scss */
 .dashboard .search-from-lp {
-  display: none;
+	display: none;
 }
 
 /* #Droppable Class Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 299, app/assets/stylesheets/bs3/_mega-menu.scss */
-.ct-menu .droppable {
-  position: static;
+.ct-menu  .droppable {
+	position: static;
+
+	&:hover .nav-link-hover {
+		color: #64748B;
+	}
 }
 
-/* line 302, app/assets/stylesheets/bs3/_mega-menu.scss */
-.ct-menu .droppable:hover .nav-link-hover {
-  color: #64748B;
-}
-
-/* line 307, app/assets/stylesheets/bs3/_mega-menu.scss */
 .ct-menu .nav-link-simple:hover {
-  color: #64748B;
+	color: #64748B;
+}
+// .ct-menu  .droppable > a:after {
+// 	content: "\f107";
+//   	font-family: FontAwesome;
+//   	font-size: 12px;
+//   	padding-left: 6px;
+//   	position: relative;
+// 		font-weight: 800;
+//   	top: -1px;
+// }
+.ct-menu .droppable:hover .small-menu:not(.active) ,
+.ct-menu  .droppable:hover .mega-menu:not(.active),
+.ct-menu  .droppable .mega-menu.active,
+.ct-menu  .droppable .small-menu.active {
+	opacity: 1;
+	visibility: visible;
+	z-index: 1000;
 }
 
-/* line 319, app/assets/stylesheets/bs3/_mega-menu.scss */
-.ct-menu .droppable:hover .small-menu:not(.active),
-.ct-menu .droppable:hover .mega-menu:not(.active),
-.ct-menu .droppable .mega-menu.active,
-.ct-menu .droppable .small-menu.active {
-  opacity: 1;
-  visibility: visible;
-  z-index: 1000;
-}
+
 
 /* #Browser Clearfix
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 332, app/assets/stylesheets/bs3/_mega-menu.scss */
 .ct-menu .cf:before,
 .ct-menu .cf:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
+	content: " "; /* 1 */
+	display: table; /* 2 */
 }
-
-/* line 337, app/assets/stylesheets/bs3/_mega-menu.scss */
-.ct-menu .cf:after {
-  clear: both;
-}
+.ct-menu .cf:after {clear: both;}
 
 @media (max-width: 768px) {
-  /* line 340, app/assets/stylesheets/bs3/_mega-menu.scss */
-  .ct-menu .container {
-    width: 100%;
-    padding: 0 20px;
-    /* Add spacing to the sides for smaller screens */
-  }
-  /* line 345, app/assets/stylesheets/bs3/_mega-menu.scss */
-  nav.ct-menu > ul > li > a {
-    border-bottom: none;
-  }
-  /* Add styles for the mega menu here for smaller screens */
-  /* line 350, app/assets/stylesheets/bs3/_mega-menu.scss */
-  .mega-menu {
-    /* Your responsive mega menu styles here */
-  }
+	.ct-menu .container {
+		width: 100%;
+		padding: 0 20px; /* Add spacing to the sides for smaller screens */
+	}
+
+	nav.ct-menu > ul > li > a {
+		border-bottom: none;
+	}
+
+	/* Add styles for the mega menu here for smaller screens */
 }
 
 @media (min-width: 768px) {
-  /* line 356, app/assets/stylesheets/bs3/_mega-menu.scss */
   .mega-menu-container {
     width: 720px;
   }
 }
 
 @media (min-width: 991px) {
-  /* line 362, app/assets/stylesheets/bs3/_mega-menu.scss */
   .mega-menu-container {
     width: 940px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 368, app/assets/stylesheets/bs3/_mega-menu.scss */
   .mega-menu-container {
     width: 1140px;
   }
 }
 
 @media all and (max-width: 1200px) {
-  /* line 374, app/assets/stylesheets/bs3/_mega-menu.scss */
-  nav.ct-menu > ul > li {
-    padding-left: 8px;
-    padding-right: 8px;
-  }
+	nav.ct-menu > ul > li {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
 }
 
 @media all and (max-width: 991px) {
-  /* line 381, app/assets/stylesheets/bs3/_mega-menu.scss */
+	.small-menu {
+		text-align: center;
+	}
+
   .header-left {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 30px;
   }
-  /* line 387, app/assets/stylesheets/bs3/_mega-menu.scss */
-  .nav-items-center {
-    margin: 0;
-  }
-  /* line 391, app/assets/stylesheets/bs3/_mega-menu.scss */
-  nav.ct-menu > ul > li {
-    display: block;
-    padding: 10px 0;
-    text-align: left;
-  }
-  /* line 397, app/assets/stylesheets/bs3/_mega-menu.scss */
+
+	.section-nf-tim {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.nav-items-center {
+		margin: 0;
+	}
+
+	nav.ct-menu > ul > li {
+		display: block;
+		padding: 10px 0;
+		text-align: left;
+	}
+
   .header-numbers {
     flex-direction: column;
+
+    .border,
+    .border-middle {
+      border-color: transparent;
+      margin-bottom: 30px;
+    }
+
+    .border,
+    .border-middle,
+    .border-last {
+      padding: 0;
+    }
   }
-  /* line 400, app/assets/stylesheets/bs3/_mega-menu.scss */
-  .header-numbers .border,
-.header-numbers .border-middle {
-    border-color: transparent;
-    margin-bottom: 30px;
-  }
-  /* line 406, app/assets/stylesheets/bs3/_mega-menu.scss */
-  .header-numbers .border,
-.header-numbers .border-middle,
-.header-numbers .border-last {
-    padding: 0;
-  }
-  /* line 413, app/assets/stylesheets/bs3/_mega-menu.scss */
+
   .navbar-header {
     display: block !important;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  /* line 419, app/assets/stylesheets/bs3/_mega-menu.scss */
+
   .nav-items-center,
-.ct-logo-li,
-.mega-menu,
-.small-menu {
+  .ct-logo-li,
+  .mega-menu,
+  .small-menu {
     display: none !important;
   }
-  /* line 426, app/assets/stylesheets/bs3/_mega-menu.scss */
+
   .nav-items-center.active,
-.mega-menu.active,
-.small-menu.active {
+  .mega-menu.active,
+  .small-menu.active {
     display: block !important;
   }
-  /* line 432, app/assets/stylesheets/bs3/_mega-menu.scss */
+
   .ul-reset {
     float: none !important;
   }
-  /* line 436, app/assets/stylesheets/bs3/_mega-menu.scss */
+
+	.small-menu .ul-reset,
   .mega-menu .ul-reset {
     margin-top: 15px !important;
     margin-bottom: 20px !important;
   }
-  /* line 441, app/assets/stylesheets/bs3/_mega-menu.scss */
+
   .learning {
     margin-bottom: 20px;
   }
-  /* line 445, app/assets/stylesheets/bs3/_mega-menu.scss */
+
   .mega-menu .section-nf-tim {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  /* line 450, app/assets/stylesheets/bs3/_mega-menu.scss */
+
   .nav-items-center.active {
     flex-direction: column;
     align-items: start;
     height: 400px;
     overflow: scroll;
+
+    .nav-link-hover,
+    .nav-link-simple{
+      padding: 0;
+    }
+
+		.droppable .small-menu,
+    .droppable .mega-menu {
+      .cf {
+        display: block;
+
+        .ul-reset {
+          width: 100%;
+          margin: 0;
+          text-align: center;
+        }
+      }
+    }
+
+    .nav-link-hover {
+      text-align: left;
+    }
   }
-  /* line 456, app/assets/stylesheets/bs3/_mega-menu.scss */
-  .nav-items-center.active .nav-link-hover,
-.nav-items-center.active .nav-link-simple {
-    padding: 0;
-  }
-  /* line 462, app/assets/stylesheets/bs3/_mega-menu.scss */
-  .nav-items-center.active .droppable .mega-menu .cf {
-    display: block;
-  }
-  /* line 465, app/assets/stylesheets/bs3/_mega-menu.scss */
-  .nav-items-center.active .droppable .mega-menu .cf .ul-reset {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-  }
-  /* line 473, app/assets/stylesheets/bs3/_mega-menu.scss */
-  .nav-items-center.active .nav-link-hover {
-    text-align: left;
-  }
-  /* line 478, app/assets/stylesheets/bs3/_mega-menu.scss */
+
   .ct-menu .droppable .mega-menu.active,
-.ct-menu .droppable .small-menu.active {
+  .ct-menu .droppable .small-menu.active {
     position: static;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 15px;
   }
-  /* line 486, app/assets/stylesheets/bs3/_mega-menu.scss */
+
   nav.ct-menu > ul > li > a {
     padding: 0 !important;
   }
-  /* line 490, app/assets/stylesheets/bs3/_mega-menu.scss */
+
   .container-dim {
     margin-top: 0 !important;
   }
-  /* line 495, app/assets/stylesheets/bs3/_mega-menu.scss */
-  .header-flex {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    width: 100%;
-  }
+
+
+	.header-flex {
+		display: flex !important;
+		align-items: center !important;
+		justify-content: space-between !important;
+		width: 100%;
+	}
 }
 
-/* line 503, app/assets/stylesheets/bs3/_mega-menu.scss */
 .burger {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
 }
 
-/* line 509, app/assets/stylesheets/bs3/_mega-menu.scss */
 .line {
-  width: 25px;
-  height: 2px;
-  background-color: #333;
-  margin: 3px 0;
-  transition: 0.4s;
+    width: 25px;
+    height: 2px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: 0.4s;
 }
 
-/* line 517, app/assets/stylesheets/bs3/_mega-menu.scss */
 .burger.open .line:nth-child(1) {
-  transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-5px, 6px);
 }
 
-/* line 521, app/assets/stylesheets/bs3/_mega-menu.scss */
 .burger.open .line:nth-child(2) {
-  opacity: 0;
+    opacity: 0;
 }
 
-/* line 525, app/assets/stylesheets/bs3/_mega-menu.scss */
 .burger.open .line:nth-child(3) {
-  transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-5px, -6px);
 }
 
+/* mega menu end */
 
 
 /*!
